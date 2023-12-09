@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Data Stucture\Stack\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2735508433.index
+3959137331.index

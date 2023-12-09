@@ -1,0 +1,44 @@
+
+public class stack {
+	private int [] arr ;
+	private int top ;
+	
+	public stack()
+	{
+		arr = new int [5];
+		top = -1;
+	}
+	public stack(int size)
+	{
+		arr = new int[size];
+		top=-1;
+	}
+	
+	public void push(int value)
+	{
+		if(top+1 < arr.length)
+		{
+			++top;
+			arr[top]= value;
+		}
+		else 
+		{
+			System.out.println("Stack Overflow !!");
+		}
+	}
+	
+	public  int pop() 
+	{
+		if(top > -1)
+		{
+			int value = arr[top];
+			--top;
+			return value ;
+		}
+		else {
+			System.out.println("Stack Underflow!!");
+			return -1;
+		}
+	}
+
+}
